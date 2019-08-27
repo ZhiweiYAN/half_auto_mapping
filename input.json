@@ -1,0 +1,983 @@
+{
+  "customer_Information": {
+    "power_plant_full_name": "华润电力焦作有限公司",
+    "power_plant_abbreviated_name": "焦作项目",
+    "unit_nums": "1号"
+  },
+  "coal_consumption": {
+    "rated_coal_consumption_test_value": 288.72,
+    "rated_coal_consumption_design_value": 289.22,
+    "rated_coal_consumption_assessment_value": 282.56,
+    "correct_coal_consumption_value": 284.5,
+    "rated_coal_consumption_test_design_difference_value": "",
+    "annual_supervision_monthly_report_data": "2017.10～2018.9",
+    "annual_average_load_rate": "",
+    "annual_average_coal_consumption": 308.86,
+    "coal_consumption_industry_advanced": 278.07,
+    "coal_consumption_industry_average": 287.92,
+    "coal_consumption_crp_advanced": 266,
+    "coal_consumption_crp_average": 266,
+    "min": 200,
+    "max": 400
+  },
+  "factory_electricity": {
+    "factory_electricity_rate_test_value": 4.14,
+    "factory_electricity_rate_assessment_value": 3.44,
+    "factory_electricity_rate_design_value": 4.65,
+    "factory_electricity_rate__monthly_report_data": 5.33,
+    "factory_electricity_rate_industry_advanced": 3,
+    "factory_electricity_rate_industry_average": 3,
+    "factory_electricity_rate_crp_advanced": 3,
+    "factory_electricity_rate_crp_average": 3
+  },
+  "annual": {
+    "annual_fuel_consumption": 352.64,
+    "annual_fuel_consumption_industry_average": 324.64,
+    "annual_water_consumption": 1.43,
+    "annual_water_consumption_industry_average": 1.87
+  },
+  "test_curve": {
+    "test_curve_coal_consumption": 308.25,
+    "test_curve_coal_consumption_correction": 308.65,
+    "coal_consumption_adaptation_difference": 0.21
+  },
+  "heat_rate": {
+    "heat_rate_test": 7620.1,
+    "heat_rate_design": 7434,
+    "heat_rate_assessment": 7478.81
+  },
+  "boiler": {
+    "boiler_efficiency": 94.889,
+    "boiler_efficiency_design": 92.909,
+    "boiler_efficiency_assessment": 94.48,
+    "exhaust_temperature": 118.76,
+    "exhaust_temperature_design": 120,
+    "fly_ash_carbon_content": 2.27,
+    "slag_carbon_content": 0.24,
+    "smoke_exhaust_co": 16.1,
+    "a_side_air_leakage_rate": 4.44,
+    "a_side_air_leakage_rate_design": 5.07,
+    "b_side_air_leakage_rate": 4.61,
+    "b_side_air_leakage_rate_design": 5.07,
+    "a_side_air_preherter_differential_pressure": 1100,
+    "a_side_air_preherter_differential_pressure_design": 1000,
+    "b_side_air_preherter_differential_pressure": 1050,
+    "b_side_air_preherter_differential_pressure_design": 950,
+    "main_steam_temperature": 600.3,
+    "main_steam_temperature_design": 600,
+    "reheat_temperature": 598.9,
+    "reheat_temperature_design": 600,
+    "hp_cylinder_efficiency": 83.32,
+    "hp_cylinder_efficiency_design": 84.79,
+    "ip_cylinder_efficiency": 90.33,
+    "ip_cylinder_efficiency_design": 92.31,
+    "high_pressure_heater_upper_terminal_difference1_temperature": 1.6,
+    "high_pressure_heater_upper_terminal_difference1_temperature_design": -1.7,
+    "high_pressure_heater_upper_terminal_difference2_temperature": 5.5,
+    "high_pressure_heater_upper_terminal_difference2_temperature_design": 0,
+    "high_pressure_heater_upper_terminal_difference3_temperature": 4.1,
+    "high_pressure_heater_upper_terminal_difference3_temperature_design": 0
+  },
+  "tubine_testdata": {
+    "generator_power": [
+      660062,
+      633860,
+      633710,
+      597066,
+      504578,
+      326486,
+      330060
+    ],
+    "main_steam_pressure": [
+      25,
+      24.879,
+      23.572,
+      22.192,
+      18.849,
+      12.096,
+      12.954
+    ],
+    "main_steam_temperature": [
+      600,
+      600.3,
+      598.5,
+      565.4,
+      592.3,
+      593.9,
+      594.7
+    ],
+    "high_discharge_pressure": [
+      5.554,
+      5.374,
+      5.364,
+      5.071,
+      4.273,
+      2.741,
+      2.997
+    ],
+    "hp_exhaust_steam_temperature": [
+      370.7,
+      369.8,
+      374.1,
+      349.7,
+      375.8,
+      384.9,
+      386.9
+    ],
+    "reheating_pressure": [
+      4.999,
+      4.945,
+      4.945,
+      4.719,
+      3.97,
+      2.54,
+      2.787
+    ],
+    "reheat_temperature": [
+      600,
+      598.9,
+      594.1,
+      595,
+      597.8,
+      595.1,
+      593.1
+    ],
+    "intermediate_pressure": [
+      0.493,
+      0.462,
+      0.478,
+      0.446,
+      0.379,
+      0.247,
+      0.31
+    ],
+    "ip_exhaust_steam_temperature": [
+      271.8,
+      271.9,
+      265.4,
+      270.4,
+      275.2,
+      280.5,
+      293
+    ],
+    "lp_exhaust_pressure": [
+      4.9,
+      10.002,
+      9.417,
+      7.612,
+      8.383,
+      5.348,
+      6.705
+    ],
+    "feed_water_temperature": [
+      288.2,
+      285.4,
+      285.5,
+      277.1,
+      270.1,
+      249.3,
+      256
+    ],
+    "hp_cylinder_efficiency": [
+      84.79,
+      83.32,
+      84.37,
+      83.07,
+      82.44,
+      81.91,
+      82.07
+    ],
+    "ip_cylinder_efficiency": [
+      92.03,
+      90.33,
+      92.32,
+      90.46,
+      90.16,
+      89.16,
+      89.17
+    ],
+    "heat_rate_test": [
+      7347,
+      8002.29,
+      7973.44,
+      8037.52,
+      8076.64,
+      8170.22,
+      8267.84
+    ],
+    "heat_rate_test_correction": [
+      "/",
+      7620.1,
+      7592.11,
+      7661.1,
+      7805.35,
+      8123.16,
+      8105.62
+    ],
+    "generator_power_correction": [
+      660062,
+      672684,
+      705940,
+      635400,
+      526965,
+      331728,
+      340536
+    ],
+    "turbine_design_parameter": 7434,
+    "turbine_test_parameter": 7620.1
+  },
+  "boiler_testdata": {
+    "table_column_name ": [
+      "630 MW工况",
+      "500 MW工况",
+      "330 MW工况"
+    ],
+    "exhaust_temperature": [
+      139.81,
+      140.17,
+      129.04
+    ],
+    "exhaust_temperature_correction": [
+      118.76,
+      114.57,
+      107.51
+    ],
+    "fly_ash_carbon_content": [
+      2.27,
+      2.08,
+      3.58
+    ],
+    "slag_carbon_content": [
+      0.24,
+      2.21,
+      2.16
+    ],
+    "smoke_exhaust_co": [
+      16.1,
+      2.8,
+      16.6
+    ],
+    "exhaust_heat_loss_q2": [
+      4.261,
+      4.294,
+      4.752
+    ],
+    "gas_incomplete_combustion_heat_loss_q3": [
+      0.006,
+      0.001,
+      0.008
+    ],
+    "solid_incomplete_combustion_heat_loss_q4": [
+      0.48,
+      1.214,
+      2.014
+    ],
+    "boiler_heat_loss_q5": [
+      0.368,
+      0.431,
+      0.682
+    ],
+    "heat_loss_of_ash_and_slag_q6": [
+      0.053,
+      0.127,
+      0.119
+    ],
+    "other_heat_loss_qoth": [
+      0,
+      0,
+      0
+    ],
+    "percentage_of_external_heat_and_fuel_low_heat_qex": [
+      0.059,
+      0.117,
+      0.137
+    ],
+    "boiler_efficiency": [
+      94.889,
+      94.05,
+      92.56
+    ],
+    "a_side_air_leakage_rate": [
+      4.44,
+      "/",
+      "/"
+    ],
+    "b_side_air_leakage_rate": [
+      4.61,
+      "/",
+      "/"
+    ],
+    "a_side_air_preherter_differential_pressure": [
+      1100,
+      "/",
+      "/"
+    ],
+    "b_side_air_preherter_differential_pressure": [
+      1050,
+      "/",
+      "/"
+    ]
+  },
+  "environmental_testdata": {
+    "generator_power": [
+      660,
+      630,
+      500
+    ],
+    "flue_gas_flow": [
+      198820,
+      "/",
+      "/"
+    ],
+    "imported_smoke_so2_content": [
+      4427,
+      2682.5,
+      2836.5
+    ],
+    "exported_smoke_so2_content": [
+      35,
+      16.1,
+      19
+    ],
+    "desulfurization_efficiency": [
+      99.21,
+      99.4,
+      99.3
+    ],
+    "running_circulating_pump": [
+      5,
+      "3（BCD）",
+      "3（ACD）"
+    ],
+    "desulfurization_resistance": [
+      2350,
+      1850,
+      1487
+    ],
+    "scr_imported_smoke_nox_content": [
+      500,
+      "572.39(A侧)",
+      "453.17(B侧)"
+    ],
+    "scr_exported_smoke_nox_content": [
+      45,
+      "20.52(A侧)",
+      "65.96(B侧)"
+    ],
+    "scr_nox_content_difference": [
+      "/",
+      38.47,
+      61.73
+    ],
+    "denitration_efficiency": [
+      91,
+      96.4,
+      85.4
+    ],
+    "ammonia_escape": [
+      3,
+      "/",
+      "/"
+    ]
+  },
+  "testdata_sum": {
+    "high_pressure_heater_terminal_difference_temperature": "",
+    "lp_cylinder_efficiency_thermal_system_leakage": "",
+    "other_factors": "",
+    "sum": ""
+  },
+  "turbine_monthdata": {
+    "turbine_monthdata_serial": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "turbine_project_name": [
+      201710,
+      201711,
+      201804,
+      201805,
+      201806,
+      201807,
+      201808,
+      201809,
+      "年平均",
+      "中电联平均值",
+      201712,
+      201801,
+      201802,
+      201803,
+      "年平均"
+    ],
+    "monthly_load_rate": [
+      75.38,
+      62.22,
+      46.87,
+      54.86,
+      66.3,
+      64.31,
+      61.83,
+      58.93,
+      61.34,
+      71.6,
+      46.58,
+      69.8,
+      61.2,
+      64.88,
+      60.62
+    ],
+    "monthly__coal_consumption_fa": [
+      284.35,
+      291.5,
+      308.04,
+      292.21,
+      290.04,
+      293.04,
+      287.14,
+      292.13,
+      292.31,
+      "/",
+      "249.02",
+      265.89,
+      280.08,
+      266.36,
+      265.34
+    ],
+    "monthly__coal_consumption": [
+      297.14,
+      306.94,
+      333.98,
+      307.34,
+      303.79,
+      309.57,
+      304.43,
+      307.67,
+      308.86,
+      287.92,
+      265.46,
+      277.44,
+      293.86,
+      278.87,
+      278.91
+    ],
+    "monthly_factory_electricity_rate": [
+      4.3,
+      5.03,
+      7.77,
+      4.92,
+      4.52,
+      5.34,
+      5.68,
+      5.05,
+      5.33,
+      4.16,
+      6.2,
+      4.16,
+      4.69,
+      4.49,
+      4.88
+    ],
+    "monthly_vacuum_degree": [
+      93.46,
+      94.48,
+      95.25,
+      94.8,
+      93.28,
+      92.18,
+      92.01,
+      94,
+      93.68,
+      95.24,
+      96.26,
+      96.26,
+      96.06,
+      95.86,
+      96.11
+    ],
+    "monthly_report_main_steam_pressure": [
+      17.53,
+      14.56,
+      11.47,
+      12.54,
+      16.4,
+      17.95,
+      15.98,
+      15.38,
+      15.23,
+      "/",
+      10.46,
+      14.19,
+      15.36,
+      15.9,
+      13.98
+    ],
+    "monthly_report_main_steam_temperature": [
+      597.73,
+      597.43,
+      593.59,
+      593.45,
+      594.34,
+      596.05,
+      596.86,
+      599.25,
+      596.09,
+      "/",
+      595.17,
+      592.39,
+      593.61,
+      594.51,
+      593.92
+    ],
+    "turbine_project_name1": [
+      201710,
+      201711,
+      201804,
+      201805,
+      201806,
+      201807,
+      201808,
+      201809,
+      "年平均",
+      201712,
+      201801,
+      201802,
+      201803,
+      "年平均"
+    ],
+    "monthly_reheating_pressure": [
+      3.46,
+      2.77,
+      2.2,
+      2.49,
+      3.29,
+      3.47,
+      3.05,
+      2.97,
+      2.96,
+      1.98,
+      2.75,
+      2.91,
+      3.05,
+      2.67
+    ],
+    "monthly_reheat_temperature": [
+      599.28,
+      596.47,
+      591.87,
+      596.99,
+      596.19,
+      594.59,
+      594.85,
+      592.04,
+      595.29,
+      594.02,
+      591.28,
+      595.71,
+      594.48,
+      593.87
+    ],
+    "monthly_hours_of_use": [
+      744,
+      540.93,
+      148.3,
+      744,
+      720,
+      473,
+      311.57,
+      491.28,
+      521.64,
+      327.62,
+      738.93,
+      672,
+      527.65,
+      566.55
+    ],
+    "monthly_circulating_pump_unit_consumption": [
+      0.82,
+      0.86,
+      1.45,
+      1.05,
+      0.92,
+      1.23,
+      1.18,
+      0.74,
+      1.03,
+      0.98,
+      0.6,
+      0.69,
+      0.66,
+      0.73
+    ],
+    "monthly_condensate_pump_unit_consumption": [
+      0.17,
+      0.18,
+      0.27,
+      0.23,
+      0.19,
+      0.2,
+      0.19,
+      0.2,
+      0.2,
+      0.21,
+      0.17,
+      0.17,
+      0.17,
+      0.18
+    ],
+    "monthly_front_pump_unit_consumption": [
+      0.17,
+      0.21,
+      0.28,
+      0.22,
+      0.19,
+      0.21,
+      0.21,
+      0.22,
+      0.21,
+      0.27,
+      0.19,
+      0.2,
+      0.2,
+      0.21
+    ]
+  },
+  "boiler_monthdata": {
+    "boiler_monthdata_serial": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "boiler_project_name": [
+      201710,
+      201711,
+      201712,
+      201801,
+      201802,
+      201803,
+      201804,
+      201805,
+      201806,
+      201807,
+      201808,
+      201809,
+      "平均",
+      "先进值",
+      "平均值"
+    ],
+    "monthly_report_boiler_efficiency": [
+      93.85,
+      93.76,
+      92.54,
+      94.31,
+      92.16,
+      92.09,
+      93.41,
+      93.33,
+      92.72,
+      92.72,
+      92.72,
+      92.59,
+      93.02,
+      "/",
+      "/"
+    ],
+    "monthly_report_exhaust_temperature": [
+      134.64,
+      134.49,
+      127.03,
+      130.38,
+      137.96,
+      137.2,
+      114.37,
+      130.92,
+      137.82,
+      127.54,
+      136.13,
+      130.71,
+      131.6,
+      "/",
+      "/"
+    ],
+    "monthly_cold_air_temperature": [
+      15.54,
+      15.62,
+      "6.51",
+      1.61,
+      5.87,
+      10.06,
+      21.15,
+      22.56,
+      27.33,
+      28.54,
+      30.75,
+      21.43,
+      17.25,
+      "/",
+      "/"
+    ],
+    "monthly_report_fly_ash_carbon_content": [
+      1.44,
+      1.74,
+      "1.464",
+      3.49,
+      2.16,
+      4.05,
+      3.05,
+      2.39,
+      3.56,
+      4.3,
+      2.95,
+      2.61,
+      2.78,
+      "/",
+      "/"
+    ],
+    "monthly_report_slag_carbon_content": [
+      3.86,
+      4.23,
+      0.98,
+      2.74,
+      2.25,
+      4.2,
+      4.09,
+      3.54,
+      3.94,
+      7.57,
+      8.67,
+      5.42,
+      4.29,
+      "/",
+      "/"
+    ],
+    "monthly_air_leakage_rate": [
+      3,
+      3,
+      3,
+      3.1,
+      3,
+      3,
+      3,
+      3.29,
+      3.29,
+      3.29,
+      3.29,
+      3.29,
+      3.13,
+      "/",
+      "/"
+    ],
+    "monthly_air_preherter_differential_pressure": [
+      1344.88,
+      1328.5,
+      964.39,
+      1272.72,
+      1537.91,
+      1545.23,
+      473.43,
+      556.25,
+      714.45,
+      727.26,
+      652.51,
+      665.51,
+      981.92,
+      "/",
+      "/"
+    ],
+    "boiler_project_name1": [
+      201710,
+      201711,
+      201712,
+      201801,
+      201802,
+      201803,
+      201804,
+      201805,
+      201806,
+      201807,
+      201808,
+      201809,
+      "平均",
+      "先进值",
+      "平均值"
+    ],
+    "monthly_fuel_consumption": [
+      0,
+      70.56,
+      8.04,
+      1.32,
+      0,
+      2.4,
+      70.8,
+      59.22,
+      9.84,
+      29.96,
+      0.96,
+      99.54,
+      "352.64（总耗量）",
+      "/",
+      69.65
+    ],
+    "monthly_superheater_desuperheating_water": [
+      46,
+      41,
+      44,
+      53,
+      88,
+      53,
+      41,
+      71,
+      73,
+      61,
+      76,
+      37,
+      57.07,
+      "/",
+      "/"
+    ],
+    "monthly_reheater_desuperheating_water": [
+      12.39,
+      7.47,
+      3.26,
+      2.65,
+      2.12,
+      0.83,
+      0.39,
+      2.04,
+      1.31,
+      0.98,
+      0.4,
+      1.25,
+      2.92,
+      "/",
+      "/"
+    ],
+    "monthly_coal_mill": [
+      0.96,
+      0.94,
+      1,
+      0.88,
+      1.06,
+      0.96,
+      0.97,
+      0.93,
+      0.91,
+      0.86,
+      0.84,
+      0.94,
+      0.94,
+      0.33,
+      0.37
+    ],
+    "monthly__primary_fan_unit_consumption": [
+      0.31,
+      0.34,
+      0.42,
+      0.34,
+      0.38,
+      0.37,
+      0.45,
+      0.38,
+      0.37,
+      0.39,
+      0.39,
+      0.41,
+      0.38,
+      0.36,
+      0.44
+    ],
+    "monthly__blower_unit_consumption": [
+      0.23,
+      0.23,
+      0.24,
+      0.2,
+      0.2,
+      0.21,
+      0.23,
+      0.2,
+      0.2,
+      0.2,
+      0.21,
+      0.2,
+      0.21,
+      0.14,
+      0.17
+    ],
+    "monthly__fan_unit_consumption": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.48,
+      0.73
+    ]
+  },
+  "environmental_monthdata": {
+    "monthly_water_withdrawal": 1.43,
+    "china_national_electric_power_union": 1.87,
+    "limestone_consumption": 0.645,
+    "limestone_single_consumption_rating": "A",
+    "nitrogen_consumption": 0.7,
+    "nitrogen_single_consumption_rating": "A"
+  },
+  "operation_optimization": [
+    "再热蒸汽温度",
+    0.08,
+    "排烟中CO含量偏高",
+    0.02
+  ],
+  "maintenance_technical_reform": [
+    "高压加热器上端差大",
+    0.09,
+    "高压缸效率",
+    0.62,
+    "中压缸效率",
+    1.03,
+    "低压缸效率、内漏阀门治理",
+    2.83
+  ],
+  "other": [
+    "其他可挖掘潜力",
+    0.5
+  ],
+  "incremental_energy_saving": [
+    "真空泵变频改造",
+    0.03,
+    "真空泵改罗茨泵",
+    0.07,
+    "引风机小机背压改造",
+    1,
+    "送风机改造",
+    0.2
+  ],
+  "rated_coal_consumption_test_value": 111,
+  "rated_coal_consumption_design_value": 3333,
+  "rated_coal_consumption_assessment_value": 111,
+  "annual_average_coal_consumption": 111,
+  "coal_consumption_industry_advanced": 111,
+  "_coal_consumption_industry_average": 1111,
+  "coal_consumption_crp_advanced": 1111,
+  "coal_consumption_crp_average": 1111
+}
